@@ -77,22 +77,22 @@ if (window.matchMedia("(max-width: 750px)").matches) {
   // for(let i = 0; i < blinker.length; i++) {
   //   // blinker[i].innerText = "click to know more";
   // }
-  document.body.addEventListener("touchstart",function(event) {
-    for (i = 0; i < cards.length; i++) {
-      if (event.target==cards[i]) {
-        console.log("great");
-        for (j = 0; j < blinker.length; j++) {
-          blinker[j].innerText = "";
-        }
-    } 
-    else if (event.target != cards[i]) {
-      console.log("not great");
-      for (k = 0; k < blinker.length; k++) {
-        blinker[k].innerText = "";
-      }
-    }
-    }
-   })
+  // document.body.addEventListener("touchstart",function(event) {
+  //   for (i = 0; i < cards.length; i++) {
+  //     if (event.target==cards[i]) {
+  //       console.log("great");
+  //       for (j = 0; j < blinker.length; j++) {
+  //         blinker[j].innerText = "";
+  //       }
+  //   } 
+  //   else if (event.target != cards[i]) {
+  //     console.log("not great");
+  //     for (k = 0; k < blinker.length; k++) {
+  //       blinker[k].innerText = "";
+  //     }
+  //   }
+  //   }
+  //  })
 
   font_awesome.innerHTML = `<i class=" fa fa-2x fa-arrow-left" aria-hidden="true" ></i>`
 
