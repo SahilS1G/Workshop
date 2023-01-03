@@ -36,7 +36,7 @@ const jamboreeKn = `<h1 class= "info-title"> Day 1 </h1>
 
 const autodeskKn = `Grab this chance to learn how modern 3D modeling breathes life into concepts, and explore ways in which 3D modeling and CAD software have vastly improved the design process. `
 
-const ethicalKn =  `Learn how ethical security researchers uncover critical vulnerabilities and defend our systems. Get to know about the lucrative and productive careers you can make in Ethical Hacking. `
+const ethicalKn =  `<p class="info>Learn how ethical security researchers uncover critical vulnerabilities and defend our systems. Get to know about the lucrative and productive careers you can make in Ethical Hacking. </p> `
 
 const sparrowKn = `An Intelligent ubiquitous communication platform for medical and psychological well-being during disasters `
 
@@ -173,8 +173,8 @@ for (i = 0; i < cards.length; i++) {
 
 
 const augmented1 = document.getElementById("augmented1");
-// const augmented2 = document.getElementById("augmented2");
-const augmented3 = document.getElementById("augmented3");
+const augmented2 = document.getElementById("augmented2");
+// const augmented3 = document.getElementById("augmented3");
 // const augmented4 = document.getElementById("augmented4");
 // const augmented5 = document.getElementById("augmented5");
 // const augmented6 = document.getElementById("augmented6");
@@ -182,8 +182,8 @@ const augmented3 = document.getElementById("augmented3");
 
 
 const auginnerhtml1 = augmented1.innerHTML;
-// const auginnerhtml2 = augmented2.innerHTML;
-const auginnerhtml3 = augmented3.innerHTML;
+const auginnerhtml2 = augmented2.innerHTML;
+// const auginnerhtml3 = augmented3.innerHTML;
 // const auginnerhtml4 = augmented4.innerHTML;
 // const auginnerhtml5 = augmented5.innerHTML;
 // const auginnerhtml6 = augmented6.innerHTML;
@@ -672,17 +672,17 @@ $(document).ready(function(){
   })
 })
 
-// $(document).ready(function(){
-//   $(document).on('touchstart click',"#know2" ,function(){
-//     know(augmented2,auginnerhtml2,autodeskKn,"cross2");
-//   })
-// })
-
 $(document).ready(function(){
-  $(document).on('touchstart click',"#know3" ,function(){
-    know(augmented3,auginnerhtml3,ethicalKn,"cross3");
+  $(document).on('touchstart click',"#know2" ,function(){
+    know(augmented2,auginnerhtml2,autodeskKn,"cross2");
   })
 })
+
+// $(document).ready(function(){
+//   $(document).on('touchstart click',"#know3" ,function(){
+//     know(augmented3,auginnerhtml3,ethicalKn,"cross3");
+//   })
+// })
 
 // $(document).ready(function(){
 //   $(document).on('touchstart click',"#know4" ,function(){
