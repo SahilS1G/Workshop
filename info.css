@@ -1393,7 +1393,7 @@
   }
 
 .info{
-    font-size: 1.7vw;
+    font-size: 1.3vw;
 }
 
 .content{
@@ -1406,5 +1406,12 @@
 .info-title{
     margin-bottom: 5%;
     font-weight: bolder;
-    font-size: 2.3vw;
+    font-size: 1.7vw;
+}
+
+.speakers{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
