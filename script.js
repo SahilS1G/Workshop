@@ -672,17 +672,17 @@ $(document).ready(function(){
   })
 })
 
-$(document).ready(function(){
-  $(document).on('touchstart click',"#know2" ,function(){
-    know(augmented2,auginnerhtml2,autodeskKn,"cross2");
-  })
-})
-
 // $(document).ready(function(){
-//   $(document).on('touchstart click',"#know3" ,function(){
-//     know(augmented3,auginnerhtml3,ethicalKn,"cross3");
+//   $(document).on('touchstart click',"#know2" ,function(){
+//     know(augmented2,auginnerhtml2,autodeskKn,"cross2");
 //   })
 // })
+
+$(document).ready(function(){
+  $(document).on('touchstart click',"#know3" ,function(){
+    know(augmented3,auginnerhtml3,ethicalKn,"cross3");
+  })
+})
 
 // $(document).ready(function(){
 //   $(document).on('touchstart click',"#know4" ,function(){
