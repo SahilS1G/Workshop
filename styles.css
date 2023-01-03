@@ -375,7 +375,7 @@ h1 {
   position: relative;
 }
 
-.main-title::before {
+/* .main-title::before {
   content: "";
   display: block;
   position: absolute;
@@ -387,11 +387,11 @@ h1 {
   border-radius: 50%;
   border: 1.3vmin solid currentColor;
   box-sizing: border-box;
-}
+} */
 
 em {
   font-family: 'Josefin Sans', sans-serif;
-  color: currentColor;
+  color: cyan;
   font-size: 15vmin;
   position: relative;
   font-style: normal;
