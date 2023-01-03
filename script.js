@@ -4,7 +4,35 @@ const rsc2Kn = "Get to know about cobot and innovative technology in industrial 
 
 const sweKn = "Enhance your technical writing skills and learn how to present your discoveries."
 
-const jamboreeKn = `A webinar on "Higher Studies abroad after Engineering" by Mr. Shreyas Ramakrishnan, in association with Jamboree Education. Here's your opportunity to get step-by-step guidance for the entire process of admissions in institutions around the world. `
+const jamboreeKn = `<h1 class= "info-title"> Day 1 </h1>
+                    <p class="info"> Get Nvidia Certified in a day by hand-on training of AI model on NVidia remote GPU </p>
+                    </br>
+                    <hr>
+                    </br>
+                    <h1 class= "info-title"> Day 2 </h1>
+                    <p class="info"> 
+                    1.Build your own AI project end-to-end .
+                    </p>
+                    <p class="info"> 
+                    2.Build your own IoT project and deploy on BrainyPi
+                    </p>
+                    </br>
+                    <hr>
+                    </br>
+                    <h1 class= "info-title">Speakers</h1>
+                    
+                    <div class="speakers">
+                    <p class= "info">
+                    Sneha Bhapkar
+                    </p>
+                    <p class= "info">
+                    Sneha Bhapkar
+                    </p>
+                    </div>
+                    
+                    
+`
+
 
 const autodeskKn = `Grab this chance to learn how modern 3D modeling breathes life into concepts, and explore ways in which 3D modeling and CAD software have vastly improved the design process. `
 
@@ -46,25 +74,25 @@ const blinker = document.querySelectorAll(".blinker");
 const mainTitle = document.querySelector("h1")
 
 if (window.matchMedia("(max-width: 750px)").matches) {
-  for(let i = 0; i < blinker.length; i++) {
-    blinker[i].innerText = "click to know more";
-  }
-  document.body.addEventListener("touchstart",function(event) {
-    for (i = 0; i < cards.length; i++) {
-      if (event.target==cards[i]) {
-        console.log("great");
-        for (j = 0; j < blinker.length; j++) {
-          blinker[j].innerText = "";
-        }
-    } 
-    else if (event.target != cards[i]) {
-      console.log("not great");
-      for (k = 0; k < blinker.length; k++) {
-        blinker[k].innerText = "";
-      }
-    }
-    }
-   })
+  // for(let i = 0; i < blinker.length; i++) {
+  //   blinker[i].innerText = "click to know more";
+  // }
+  // document.body.addEventListener("touchstart",function(event) {
+  //   for (i = 0; i < cards.length; i++) {
+  //     if (event.target==cards[i]) {
+  //       console.log("great");
+  //       for (j = 0; j < blinker.length; j++) {
+  //         blinker[j].innerText = "";
+  //       }
+  //   } 
+  //   else if (event.target != cards[i]) {
+  //     console.log("not great");
+  //     for (k = 0; k < blinker.length; k++) {
+  //       blinker[k].innerText = "";
+  //     }
+  //   }
+  //   }
+  //  })
 
   font_awesome.innerHTML = `<i class=" fa fa-2x fa-arrow-left" aria-hidden="true" ></i>`
 
@@ -145,21 +173,21 @@ for (i = 0; i < cards.length; i++) {
 
 
 const augmented1 = document.getElementById("augmented1");
-const augmented2 = document.getElementById("augmented2");
+// const augmented2 = document.getElementById("augmented2");
 const augmented3 = document.getElementById("augmented3");
-const augmented4 = document.getElementById("augmented4");
-const augmented5 = document.getElementById("augmented5");
-const augmented6 = document.getElementById("augmented6");
-const augmented7 = document.getElementById("augmented7");
+// const augmented4 = document.getElementById("augmented4");
+// const augmented5 = document.getElementById("augmented5");
+// const augmented6 = document.getElementById("augmented6");
+// const augmented7 = document.getElementById("augmented7");
 
 
 const auginnerhtml1 = augmented1.innerHTML;
-const auginnerhtml2 = augmented2.innerHTML;
+// const auginnerhtml2 = augmented2.innerHTML;
 const auginnerhtml3 = augmented3.innerHTML;
-const auginnerhtml4 = augmented4.innerHTML;
-const auginnerhtml5 = augmented5.innerHTML;
-const auginnerhtml6 = augmented6.innerHTML;
-const auginnerhtml7 = augmented7.innerHTML;
+// const auginnerhtml4 = augmented4.innerHTML;
+// const auginnerhtml5 = augmented5.innerHTML;
+// const auginnerhtml6 = augmented6.innerHTML;
+// const auginnerhtml7 = augmented7.innerHTML;
 
 
 
@@ -619,8 +647,7 @@ function know(augmented,auginnerhtml,infoFull,cross) {
         <div class="content">
       
           <div class="reveal">
-            <h1 class="info-title">Know More</h1>
-            <p class="info">${infoFull}}</p>
+            ${infoFull}
           </div>
         </div>
       </div>
@@ -645,11 +672,11 @@ $(document).ready(function(){
   })
 })
 
-$(document).ready(function(){
-  $(document).on('touchstart click',"#know2" ,function(){
-    know(augmented2,auginnerhtml2,autodeskKn,"cross2");
-  })
-})
+// $(document).ready(function(){
+//   $(document).on('touchstart click',"#know2" ,function(){
+//     know(augmented2,auginnerhtml2,autodeskKn,"cross2");
+//   })
+// })
 
 $(document).ready(function(){
   $(document).on('touchstart click',"#know3" ,function(){
@@ -657,27 +684,27 @@ $(document).ready(function(){
   })
 })
 
-$(document).ready(function(){
-  $(document).on('touchstart click',"#know4" ,function(){
-    know(augmented4,auginnerhtml4,rsc1Kn,"cross4");
-  })
-})
+// $(document).ready(function(){
+//   $(document).on('touchstart click',"#know4" ,function(){
+//     know(augmented4,auginnerhtml4,rsc1Kn,"cross4");
+//   })
+// })
 
-$(document).ready(function(){
-  $(document).on('touchstart click',"#know5" ,function(){
-    know(augmented5,auginnerhtml5,rsc2Kn,"cross5");
-  })
-})
+// $(document).ready(function(){
+//   $(document).on('touchstart click',"#know5" ,function(){
+//     know(augmented5,auginnerhtml5,rsc2Kn,"cross5");
+//   })
+// })
 
-$(document).ready(function(){
-  $(document).on('touchstart click',"#know6" ,function(){
-    know(augmented6,auginnerhtml6,sparrowKn,"cross6");
-  })
-})
+// $(document).ready(function(){
+//   $(document).on('touchstart click',"#know6" ,function(){
+//     know(augmented6,auginnerhtml6,sparrowKn,"cross6");
+//   })
+// })
 
-$(document).ready(function(){
-  $(document).on('touchstart click',"#know7" ,function(){
-    know(augmented7,auginnerhtml7,sweKn,"cross7");
-  })
-})
+// $(document).ready(function(){
+//   $(document).on('touchstart click',"#know7" ,function(){
+//     know(augmented7,auginnerhtml7,sweKn,"cross7");
+//   })
+// })
 

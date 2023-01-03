@@ -17,6 +17,7 @@
 html{
   scroll-behavior: smooth;
   /* overflow:auto; */
+  background-color: black;
 
 }
 
@@ -245,7 +246,9 @@ body{
 
 }
 
-
+.card{
+  height: 190%;
+}
 
 .card-image{
   position: absolute;
