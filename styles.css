@@ -17,7 +17,6 @@
 html{
   scroll-behavior: smooth;
   /* overflow:auto; */
-  background-color: black;
 
 }
 
@@ -216,7 +215,7 @@ body{
 }
 
 .earth{
-  width: 700px;
+  width: 500px;
   position: absolute;
   /* z-index: 10; */
   top: 20%;
