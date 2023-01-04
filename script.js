@@ -4,7 +4,7 @@ const rsc2Kn = "Get to know about cobot and innovative technology in industrial 
 
 const sweKn = "Enhance your technical writing skills and learn how to present your discoveries."
 
-const jamboreeKn = `<h1 class= "info-title"> Day 1 </h1>
+const IOT = `<h1 class= "info-title"> Day 1 </h1>
                     <p class="info"> Get Nvidia Certified in a day by hand-on training of AI model on NVidia remote GPU </p>
                     </br>
                     <hr>
@@ -28,15 +28,27 @@ const jamboreeKn = `<h1 class= "info-title"> Day 1 </h1>
                     <p class= "info">
                     Sneha Bhapkar
                     </p>
-                    </div>
-                    
-                    
+                    </div>                    
+
 `
 
 
-const autodeskKn = `Grab this chance to learn how modern 3D modeling breathes life into concepts, and explore ways in which 3D modeling and CAD software have vastly improved the design process. `
+const autodeskKn = `<h1 class= "info-title"> Know More </h1>
+                    <p class="info">
+                    Create, design and simulate mobile robotics. Learn ROS, Python, C++ for robotics programming and a lot more. Download the following image for the entire schedule.
+                    </p> 
+                    </br>
+                    </br>
+                    <p class="info "> 
+                    <a href="./images/ROS WORKSHOP-01.png" class="dwdrob" download> 
+                    ROBOTICS WORKSHOP
+                    </a>
+                    </p>
+   
+ `
 
-const ethicalKn =  `<p class="info>Learn how ethical security researchers uncover critical vulnerabilities and defend our systems. Get to know about the lucrative and productive careers you can make in Ethical Hacking. </p> `
+const ethicalKn =  `
+`
 
 const sparrowKn = `An Intelligent ubiquitous communication platform for medical and psychological well-being during disasters `
 
@@ -615,16 +627,16 @@ function know(augmented,auginnerhtml,infoFull,cross) {
 $(document).ready(function(){
   $(document).on('touchstart click',"#know1" ,function(){
     console.log("clicked")
-    know(augmented1,auginnerhtml1,jamboreeKn,"cross1","line1","cube1");
+    know(augmented1,auginnerhtml1,IOT,"cross1","line1","cube1");
      
   })
 })
 
-// $(document).ready(function(){
-//   $(document).on('touchstart click',"#know2" ,function(){
-//     know(augmented2,auginnerhtml2,autodeskKn,"cross2");
-//   })
-// })
+$(document).ready(function(){
+  $(document).on('touchstart click',"#know2" ,function(){
+    know(augmented2,auginnerhtml2,autodeskKn,"cross2");
+  })
+})
 
 // $(document).ready(function(){
 //   $(document).on('touchstart click',"#know3" ,function(){
