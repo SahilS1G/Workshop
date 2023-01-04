@@ -40,7 +40,7 @@ const autodeskKn = `<h1 class= "info-title"> Know More </h1>
                     </br>
                     </br>
                     <p class="info "> 
-                    <a href="./images/ROS WORKSHOP-01.png" class="dwdrob" download> 
+                    <a href="./images/ROBO WORKSHOP-02-02.jpg" class="dwdrob" download> 
                     ROBOTICS WORKSHOP
                     </a>
                     </p>
