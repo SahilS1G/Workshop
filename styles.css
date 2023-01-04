@@ -29,7 +29,7 @@ body{
   font-family: monospace;
   color: cyan;
 }
-
+/*  */
 .container{
   display: flex;
   flex-direction: row;
@@ -37,9 +37,7 @@ body{
   align-items: center;
   flex-wrap: wrap;
   padding-top: 5%;
-  /* background-color: rgba(0,0,0,0.6); */
   margin-top: 3%;
-  /* overflow-y: hidden; */
 }
 
 .presentation-el{
@@ -150,12 +148,12 @@ body{
   border: 2px solid yellow;
   border-radius: 5px;
   padding: 11px;
-  padding-left: 20px;
+  padding-left: 20vw;
   padding-right: 20px;
   opacity: 0;
   transition: 400ms;
   transform: translateY(100px);
-  /* width: 10vw; */
+  width: 10vw;
 }
 
 .presentation-el:hover .text-container{
@@ -283,8 +281,8 @@ body{
 }
 
 .button {
-  width: 12vw;
-  height: 7vh;
+  width:auto;
+  height: auto;
   font-family: 'Nunito', sans-serif;
   font-size: 1.3vw;
   text-transform: uppercase;
@@ -300,7 +298,7 @@ body{
   cursor: pointer;
   outline: none;
   position: relative;
-  padding: 3.4%;
+  padding: 8%;
 }
 
 

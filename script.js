@@ -75,7 +75,7 @@ const mainTitle = document.querySelector("h1")
 
 if (window.matchMedia("(max-width: 750px)").matches) {
   // for(let i = 0; i < blinker.length; i++) {
-  //   // blinker[i].innerText = "click to know more";
+  //   blinker[i].innerText = "click to know more";
   // }
   // document.body.addEventListener("touchstart",function(event) {
   //   for (i = 0; i < cards.length; i++) {
@@ -117,59 +117,7 @@ for (i = 0; i < cards.length; i++) {
 }
 
 
-// for(let i = 0; i < blinker.length; i++) {
-//   blinker[i].innerText = "click to know more";
-// }
-// for (i = 0; i < cards.length; i++) {
-//   cards[i].addEventListener("touchstart",function() {
-//     for(let j = 0; j < blinker.length; j++) {
-//       blinker[j].innerText = "";
-//     }
-//   })
-// }
 
-
-// $(".great").hover(function(){
-//     disappear.hide();
-// }, function() {
-//     disappear.show();
-// });
-
-// var disappear = $(".blinker");
-// $(".great").click(function(){
-//     disappear.hide();
-// }, function() {
-//     disappear.show();
-// });
-
-// $(document).ready(function(){
-//   $(document).on('touchstart click hover',".presentation-el" ,function(){
- 
-//     document.getElementById("blinker").display = "none";
- 
-//   })
-// })
-
-
-// function closeBlinker()
-// {
-//     document.querySelector(".blinker").style.display= "none";
-  
-// };
-
-// function getBlinker(){
-//   document.querySelector(".blinker").style.display= "block";
-// }
-
-// for (var i = 0; i <= cards.length; i++) {
-//    cards[i].addEventListener('mouseover', closeBlinker); 
-// }
-
-
-
-// for (var j = 0; j <= cards.length; j++) {
-//   cards[j].addEventListener("mouseout",getBlinker)
-// }
 
 
 const augmented1 = document.getElementById("augmented1");
@@ -678,11 +626,11 @@ $(document).ready(function(){
 //   })
 // })
 
-$(document).ready(function(){
-  $(document).on('touchstart click',"#know3" ,function(){
-    know(augmented3,auginnerhtml3,ethicalKn,"cross3");
-  })
-})
+// $(document).ready(function(){
+//   $(document).on('touchstart click',"#know3" ,function(){
+//     know(augmented3,auginnerhtml3,ethicalKn,"cross3");
+//   })
+// })
 
 // $(document).ready(function(){
 //   $(document).on('touchstart click',"#know4" ,function(){
