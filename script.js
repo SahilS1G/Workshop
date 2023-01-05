@@ -4,7 +4,7 @@ const rsc2Kn = "Get to know about cobot and innovative technology in industrial 
 
 const sweKn = "Enhance your technical writing skills and learn how to present your discoveries."
 
-const IOT = `<h1 class= "info-title"> Day 1 </h1>
+const IOT = `       <h1 class= "info-title"> Day 1 </h1>
                     <p class="info"> Get Nvidia Certified in a day by hand-on training of AI model on NVidia remote GPU </p>
                     </br>
                     <hr>
@@ -16,20 +16,7 @@ const IOT = `<h1 class= "info-title"> Day 1 </h1>
                     <p class="info"> 
                     2.Build your own IoT project and deploy on BrainyPi
                     </p>
-                    </br>
-                    <hr>
-                    </br>
-                    <h1 class= "info-title">Speakers</h1>
-                    
-                    <div class="speakers">
-                    <p class= "info">
-                    Sneha Bhapkar
-                    </p>
-                    <p class= "info">
-                    Sneha Bhapkar
-                    </p>
                     </div>                    
-
 `
 
 
@@ -44,7 +31,6 @@ const autodeskKn = `<h1 class= "info-title"> Know More </h1>
                     ROBOTICS WORKSHOP
                     </a>
                     </p>
-   
  `
 
 const ethicalKn =  `
@@ -171,6 +157,8 @@ function multiplyNode(node, count, deep) {
 function removeClass(great) {
   great.classList.remove("great");
 }
+
+
 
 function addClass(great) {
   great.classList.add("great");
